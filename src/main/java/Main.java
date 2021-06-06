@@ -19,10 +19,10 @@ public class Main {
         String word2 = input.nextLine();
 
         if(isAnagram(word1, word2)){
-            System.out.printf("\"%s\" and \"%s\" are anagrams", word1, word2);
+            System.out.printf("\"%s\" and \"%s\" are anagrams.", word1, word2);
         }
         else{
-            System.out.printf("\"%s\" and \"%s\" are not anagrams", word1, word2);
+            System.out.printf("\"%s\" and \"%s\" are not anagrams.", word1, word2);
         }
 
     }
@@ -40,5 +40,4 @@ public class Main {
 
         return Arrays.equals(array1, array2);
     }
-
 }
